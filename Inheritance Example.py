@@ -20,12 +20,12 @@ class Animal():
     def sleep(self):
         print("sleeping")
 
-class Dog(Animal): #A child class, inherits attributes and methods
+class Dog(Animal): #A child class, inherits attributes and methods from the parent Animal class
 
     def wag_tail(self): #method specific to the Dog class.
         print("Tail wagging...")
 
-class Cat(Animal): #A child class, inherits attributes and methods
+class Cat(Animal): #A child class, inherits attributes and methods from the parent Animal class
 
     def roam(self): #method specific to the Cat class.
         print("Roaming...")
